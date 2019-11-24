@@ -1,0 +1,186 @@
+V -t * -v 1.0a5 -a 0
+A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
+A -t * -h 1 -m 1073741823 -s 0
+c -t * -i 1 -n red
+c -t * -i 2 -n blue
+n -t * -a 4 -s 4 -S UP -v circle -c black -i black
+n -t * -a 0 -s 0 -S UP -v circle -c black -i black
+n -t * -a 5 -s 5 -S UP -v circle -c black -i black
+n -t * -a 1 -s 1 -S UP -v circle -c black -i black
+n -t * -a 6 -s 6 -S UP -v circle -c black -i black
+n -t * -a 2 -s 2 -S UP -v circle -c black -i black
+n -t * -a 3 -s 3 -S UP -v circle -c black -i black
+l -t * -s 0 -d 1 -S UP -r 1000000 -D 0.01 -c black
+l -t * -s 0 -d 2 -S UP -r 1000000 -D 0.01 -c black
+l -t * -s 0 -d 3 -S UP -r 1000000 -D 0.01 -c black
+l -t * -s 0 -d 4 -S UP -r 1000000 -D 0.10000000000000001 -c black
+l -t * -s 0 -d 5 -S UP -r 1000000 -D 0.10000000000000001 -c black
+l -t * -s 0 -d 6 -S UP -r 1000000 -D 0.089999999999999997 -c black
++ -t 0.1 -s 1 -d 0 -p ping -e 64 -c 2 -i 0 -a 2 -x {1.0 4.0 -1 ------- null}
+- -t 0.1 -s 1 -d 0 -p ping -e 64 -c 2 -i 0 -a 2 -x {1.0 4.0 -1 ------- null}
+h -t 0.1 -s 1 -d 0 -p ping -e 64 -c 2 -i 0 -a 2 -x {1.0 4.0 -1 ------- null}
+r -t 0.110512 -s 1 -d 0 -p ping -e 64 -c 2 -i 0 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 0.110512 -s 0 -d 4 -p ping -e 64 -c 2 -i 0 -a 2 -x {1.0 4.0 -1 ------- null}
+- -t 0.110512 -s 0 -d 4 -p ping -e 64 -c 2 -i 0 -a 2 -x {1.0 4.0 -1 ------- null}
+h -t 0.110512 -s 0 -d 4 -p ping -e 64 -c 2 -i 0 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 0.2 -s 4 -d 0 -p ping -e 64 -c 1 -i 1 -a 1 -x {4.0 1.0 -1 ------- null}
+- -t 0.2 -s 4 -d 0 -p ping -e 64 -c 1 -i 1 -a 1 -x {4.0 1.0 -1 ------- null}
+h -t 0.2 -s 4 -d 0 -p ping -e 64 -c 1 -i 1 -a 1 -x {4.0 1.0 -1 ------- null}
+r -t 0.211024 -s 0 -d 4 -p ping -e 64 -c 2 -i 0 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 0.211024 -s 4 -d 0 -p ping -e 64 -c 1 -i 2 -a 1 -x {4.0 1.0 -1 ------- null}
+- -t 0.211024 -s 4 -d 0 -p ping -e 64 -c 1 -i 2 -a 1 -x {4.0 1.0 -1 ------- null}
+h -t 0.211024 -s 4 -d 0 -p ping -e 64 -c 1 -i 2 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.3 -s 2 -d 0 -p ping -e 64 -c 0 -i 3 -a 0 -x {2.0 5.0 -1 ------- null}
+- -t 0.3 -s 2 -d 0 -p ping -e 64 -c 0 -i 3 -a 0 -x {2.0 5.0 -1 ------- null}
+h -t 0.3 -s 2 -d 0 -p ping -e 64 -c 0 -i 3 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 0.300512 -s 4 -d 0 -p ping -e 64 -c 1 -i 1 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.300512 -s 0 -d 1 -p ping -e 64 -c 1 -i 1 -a 1 -x {4.0 1.0 -1 ------- null}
+- -t 0.300512 -s 0 -d 1 -p ping -e 64 -c 1 -i 1 -a 1 -x {4.0 1.0 -1 ------- null}
+h -t 0.300512 -s 0 -d 1 -p ping -e 64 -c 1 -i 1 -a 1 -x {4.0 1.0 -1 ------- null}
+r -t 0.310512 -s 2 -d 0 -p ping -e 64 -c 0 -i 3 -a 0 -x {2.0 5.0 -1 ------- null}
++ -t 0.310512 -s 0 -d 5 -p ping -e 64 -c 0 -i 3 -a 0 -x {2.0 5.0 -1 ------- null}
+- -t 0.310512 -s 0 -d 5 -p ping -e 64 -c 0 -i 3 -a 0 -x {2.0 5.0 -1 ------- null}
+h -t 0.310512 -s 0 -d 5 -p ping -e 64 -c 0 -i 3 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 0.311024 -s 0 -d 1 -p ping -e 64 -c 1 -i 1 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.311024 -s 1 -d 0 -p ping -e 64 -c 2 -i 4 -a 2 -x {1.0 4.0 -1 ------- null}
+- -t 0.311024 -s 1 -d 0 -p ping -e 64 -c 2 -i 4 -a 2 -x {1.0 4.0 -1 ------- null}
+h -t 0.311024 -s 1 -d 0 -p ping -e 64 -c 2 -i 4 -a 2 -x {1.0 4.0 -1 ------- null}
+r -t 0.311536 -s 4 -d 0 -p ping -e 64 -c 1 -i 2 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.311536 -s 0 -d 1 -p ping -e 64 -c 1 -i 2 -a 1 -x {4.0 1.0 -1 ------- null}
+- -t 0.311536 -s 0 -d 1 -p ping -e 64 -c 1 -i 2 -a 1 -x {4.0 1.0 -1 ------- null}
+h -t 0.311536 -s 0 -d 1 -p ping -e 64 -c 1 -i 2 -a 1 -x {4.0 1.0 -1 ------- null}
+r -t 0.321536 -s 1 -d 0 -p ping -e 64 -c 2 -i 4 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 0.321536 -s 0 -d 4 -p ping -e 64 -c 2 -i 4 -a 2 -x {1.0 4.0 -1 ------- null}
+- -t 0.321536 -s 0 -d 4 -p ping -e 64 -c 2 -i 4 -a 2 -x {1.0 4.0 -1 ------- null}
+h -t 0.321536 -s 0 -d 4 -p ping -e 64 -c 2 -i 4 -a 2 -x {1.0 4.0 -1 ------- null}
+r -t 0.322048 -s 0 -d 1 -p ping -e 64 -c 1 -i 2 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.4 -s 5 -d 0 -p ping -e 64 -c 2 -i 5 -a 2 -x {5.0 2.0 -1 ------- null}
+- -t 0.4 -s 5 -d 0 -p ping -e 64 -c 2 -i 5 -a 2 -x {5.0 2.0 -1 ------- null}
+h -t 0.4 -s 5 -d 0 -p ping -e 64 -c 2 -i 5 -a 2 -x {5.0 2.0 -1 ------- null}
+r -t 0.411024 -s 0 -d 5 -p ping -e 64 -c 0 -i 3 -a 0 -x {2.0 5.0 -1 ------- null}
++ -t 0.411024 -s 5 -d 0 -p ping -e 64 -c 2 -i 6 -a 2 -x {5.0 2.0 -1 ------- null}
+- -t 0.411024 -s 5 -d 0 -p ping -e 64 -c 2 -i 6 -a 2 -x {5.0 2.0 -1 ------- null}
+h -t 0.411024 -s 5 -d 0 -p ping -e 64 -c 2 -i 6 -a 2 -x {5.0 2.0 -1 ------- null}
+r -t 0.422048 -s 0 -d 4 -p ping -e 64 -c 2 -i 4 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 0.5 -s 3 -d 0 -p ping -e 64 -c 0 -i 7 -a 0 -x {3.0 6.0 -1 ------- null}
+- -t 0.5 -s 3 -d 0 -p ping -e 64 -c 0 -i 7 -a 0 -x {3.0 6.0 -1 ------- null}
+h -t 0.5 -s 3 -d 0 -p ping -e 64 -c 0 -i 7 -a 0 -x {3.0 6.0 -1 ------- null}
+r -t 0.500512 -s 5 -d 0 -p ping -e 64 -c 2 -i 5 -a 2 -x {5.0 2.0 -1 ------- null}
++ -t 0.500512 -s 0 -d 2 -p ping -e 64 -c 2 -i 5 -a 2 -x {5.0 2.0 -1 ------- null}
+- -t 0.500512 -s 0 -d 2 -p ping -e 64 -c 2 -i 5 -a 2 -x {5.0 2.0 -1 ------- null}
+h -t 0.500512 -s 0 -d 2 -p ping -e 64 -c 2 -i 5 -a 2 -x {5.0 2.0 -1 ------- null}
+r -t 0.510512 -s 3 -d 0 -p ping -e 64 -c 0 -i 7 -a 0 -x {3.0 6.0 -1 ------- null}
++ -t 0.510512 -s 0 -d 6 -p ping -e 64 -c 0 -i 7 -a 0 -x {3.0 6.0 -1 ------- null}
+d -t 0.510512 -s 0 -d 6 -p ping -e 64 -c 0 -i 7 -a 0 -x {3.0 6.0 -1 ------- null}
+r -t 0.511024 -s 0 -d 2 -p ping -e 64 -c 2 -i 5 -a 2 -x {5.0 2.0 -1 ------- null}
++ -t 0.511024 -s 2 -d 0 -p ping -e 64 -c 0 -i 8 -a 0 -x {2.0 5.0 -1 ------- null}
+- -t 0.511024 -s 2 -d 0 -p ping -e 64 -c 0 -i 8 -a 0 -x {2.0 5.0 -1 ------- null}
+h -t 0.511024 -s 2 -d 0 -p ping -e 64 -c 0 -i 8 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 0.511536 -s 5 -d 0 -p ping -e 64 -c 2 -i 6 -a 2 -x {5.0 2.0 -1 ------- null}
++ -t 0.511536 -s 0 -d 2 -p ping -e 64 -c 2 -i 6 -a 2 -x {5.0 2.0 -1 ------- null}
+- -t 0.511536 -s 0 -d 2 -p ping -e 64 -c 2 -i 6 -a 2 -x {5.0 2.0 -1 ------- null}
+h -t 0.511536 -s 0 -d 2 -p ping -e 64 -c 2 -i 6 -a 2 -x {5.0 2.0 -1 ------- null}
+r -t 0.521536 -s 2 -d 0 -p ping -e 64 -c 0 -i 8 -a 0 -x {2.0 5.0 -1 ------- null}
++ -t 0.521536 -s 0 -d 5 -p ping -e 64 -c 0 -i 8 -a 0 -x {2.0 5.0 -1 ------- null}
+- -t 0.521536 -s 0 -d 5 -p ping -e 64 -c 0 -i 8 -a 0 -x {2.0 5.0 -1 ------- null}
+h -t 0.521536 -s 0 -d 5 -p ping -e 64 -c 0 -i 8 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 0.522048 -s 0 -d 2 -p ping -e 64 -c 2 -i 6 -a 2 -x {5.0 2.0 -1 ------- null}
++ -t 0.6 -s 6 -d 0 -p ping -e 64 -c 0 -i 9 -a 0 -x {6.0 3.0 -1 ------- null}
+- -t 0.6 -s 6 -d 0 -p ping -e 64 -c 0 -i 9 -a 0 -x {6.0 3.0 -1 ------- null}
+h -t 0.6 -s 6 -d 0 -p ping -e 64 -c 0 -i 9 -a 0 -x {6.0 3.0 -1 ------- null}
+r -t 0.622048 -s 0 -d 5 -p ping -e 64 -c 0 -i 8 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 0.690512 -s 6 -d 0 -p ping -e 64 -c 0 -i 9 -a 0 -x {6.0 3.0 -1 ------- null}
++ -t 0.690512 -s 0 -d 3 -p ping -e 64 -c 0 -i 9 -a 0 -x {6.0 3.0 -1 ------- null}
+- -t 0.690512 -s 0 -d 3 -p ping -e 64 -c 0 -i 9 -a 0 -x {6.0 3.0 -1 ------- null}
+h -t 0.690512 -s 0 -d 3 -p ping -e 64 -c 0 -i 9 -a 0 -x {6.0 3.0 -1 ------- null}
++ -t 0.7 -s 1 -d 0 -p ping -e 64 -c 2 -i 10 -a 2 -x {1.0 4.0 -1 ------- null}
+- -t 0.7 -s 1 -d 0 -p ping -e 64 -c 2 -i 10 -a 2 -x {1.0 4.0 -1 ------- null}
+h -t 0.7 -s 1 -d 0 -p ping -e 64 -c 2 -i 10 -a 2 -x {1.0 4.0 -1 ------- null}
+r -t 0.701024 -s 0 -d 3 -p ping -e 64 -c 0 -i 9 -a 0 -x {6.0 3.0 -1 ------- null}
++ -t 0.701024 -s 3 -d 0 -p ping -e 64 -c 0 -i 11 -a 0 -x {3.0 6.0 -1 ------- null}
+- -t 0.701024 -s 3 -d 0 -p ping -e 64 -c 0 -i 11 -a 0 -x {3.0 6.0 -1 ------- null}
+h -t 0.701024 -s 3 -d 0 -p ping -e 64 -c 0 -i 11 -a 0 -x {3.0 6.0 -1 ------- null}
+r -t 0.710512 -s 1 -d 0 -p ping -e 64 -c 2 -i 10 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 0.710512 -s 0 -d 4 -p ping -e 64 -c 2 -i 10 -a 2 -x {1.0 4.0 -1 ------- null}
+- -t 0.710512 -s 0 -d 4 -p ping -e 64 -c 2 -i 10 -a 2 -x {1.0 4.0 -1 ------- null}
+h -t 0.710512 -s 0 -d 4 -p ping -e 64 -c 2 -i 10 -a 2 -x {1.0 4.0 -1 ------- null}
+r -t 0.711536 -s 3 -d 0 -p ping -e 64 -c 0 -i 11 -a 0 -x {3.0 6.0 -1 ------- null}
++ -t 0.711536 -s 0 -d 6 -p ping -e 64 -c 0 -i 11 -a 0 -x {3.0 6.0 -1 ------- null}
+d -t 0.711536 -s 0 -d 6 -p ping -e 64 -c 0 -i 11 -a 0 -x {3.0 6.0 -1 ------- null}
++ -t 0.8 -s 4 -d 0 -p ping -e 64 -c 1 -i 12 -a 1 -x {4.0 1.0 -1 ------- null}
+- -t 0.8 -s 4 -d 0 -p ping -e 64 -c 1 -i 12 -a 1 -x {4.0 1.0 -1 ------- null}
+h -t 0.8 -s 4 -d 0 -p ping -e 64 -c 1 -i 12 -a 1 -x {4.0 1.0 -1 ------- null}
+r -t 0.811024 -s 0 -d 4 -p ping -e 64 -c 2 -i 10 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 0.811024 -s 4 -d 0 -p ping -e 64 -c 1 -i 13 -a 1 -x {4.0 1.0 -1 ------- null}
+- -t 0.811024 -s 4 -d 0 -p ping -e 64 -c 1 -i 13 -a 1 -x {4.0 1.0 -1 ------- null}
+h -t 0.811024 -s 4 -d 0 -p ping -e 64 -c 1 -i 13 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.9 -s 2 -d 0 -p ping -e 64 -c 0 -i 14 -a 0 -x {2.0 5.0 -1 ------- null}
+- -t 0.9 -s 2 -d 0 -p ping -e 64 -c 0 -i 14 -a 0 -x {2.0 5.0 -1 ------- null}
+h -t 0.9 -s 2 -d 0 -p ping -e 64 -c 0 -i 14 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 0.900512 -s 4 -d 0 -p ping -e 64 -c 1 -i 12 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.900512 -s 0 -d 1 -p ping -e 64 -c 1 -i 12 -a 1 -x {4.0 1.0 -1 ------- null}
+- -t 0.900512 -s 0 -d 1 -p ping -e 64 -c 1 -i 12 -a 1 -x {4.0 1.0 -1 ------- null}
+h -t 0.900512 -s 0 -d 1 -p ping -e 64 -c 1 -i 12 -a 1 -x {4.0 1.0 -1 ------- null}
+r -t 0.910512 -s 2 -d 0 -p ping -e 64 -c 0 -i 14 -a 0 -x {2.0 5.0 -1 ------- null}
++ -t 0.910512 -s 0 -d 5 -p ping -e 64 -c 0 -i 14 -a 0 -x {2.0 5.0 -1 ------- null}
+- -t 0.910512 -s 0 -d 5 -p ping -e 64 -c 0 -i 14 -a 0 -x {2.0 5.0 -1 ------- null}
+h -t 0.910512 -s 0 -d 5 -p ping -e 64 -c 0 -i 14 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 0.911024 -s 0 -d 1 -p ping -e 64 -c 1 -i 12 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.911024 -s 1 -d 0 -p ping -e 64 -c 2 -i 15 -a 2 -x {1.0 4.0 -1 ------- null}
+- -t 0.911024 -s 1 -d 0 -p ping -e 64 -c 2 -i 15 -a 2 -x {1.0 4.0 -1 ------- null}
+h -t 0.911024 -s 1 -d 0 -p ping -e 64 -c 2 -i 15 -a 2 -x {1.0 4.0 -1 ------- null}
+r -t 0.911536 -s 4 -d 0 -p ping -e 64 -c 1 -i 13 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 0.911536 -s 0 -d 1 -p ping -e 64 -c 1 -i 13 -a 1 -x {4.0 1.0 -1 ------- null}
+- -t 0.911536 -s 0 -d 1 -p ping -e 64 -c 1 -i 13 -a 1 -x {4.0 1.0 -1 ------- null}
+h -t 0.911536 -s 0 -d 1 -p ping -e 64 -c 1 -i 13 -a 1 -x {4.0 1.0 -1 ------- null}
+r -t 0.921536 -s 1 -d 0 -p ping -e 64 -c 2 -i 15 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 0.921536 -s 0 -d 4 -p ping -e 64 -c 2 -i 15 -a 2 -x {1.0 4.0 -1 ------- null}
+- -t 0.921536 -s 0 -d 4 -p ping -e 64 -c 2 -i 15 -a 2 -x {1.0 4.0 -1 ------- null}
+h -t 0.921536 -s 0 -d 4 -p ping -e 64 -c 2 -i 15 -a 2 -x {1.0 4.0 -1 ------- null}
+r -t 0.922048 -s 0 -d 1 -p ping -e 64 -c 1 -i 13 -a 1 -x {4.0 1.0 -1 ------- null}
++ -t 1 -s 5 -d 0 -p ping -e 64 -c 2 -i 16 -a 2 -x {5.0 2.0 -1 ------- null}
+- -t 1 -s 5 -d 0 -p ping -e 64 -c 2 -i 16 -a 2 -x {5.0 2.0 -1 ------- null}
+h -t 1 -s 5 -d 0 -p ping -e 64 -c 2 -i 16 -a 2 -x {5.0 2.0 -1 ------- null}
+r -t 1.011024 -s 0 -d 5 -p ping -e 64 -c 0 -i 14 -a 0 -x {2.0 5.0 -1 ------- null}
++ -t 1.011024 -s 5 -d 0 -p ping -e 64 -c 2 -i 17 -a 2 -x {5.0 2.0 -1 ------- null}
+- -t 1.011024 -s 5 -d 0 -p ping -e 64 -c 2 -i 17 -a 2 -x {5.0 2.0 -1 ------- null}
+h -t 1.011024 -s 5 -d 0 -p ping -e 64 -c 2 -i 17 -a 2 -x {5.0 2.0 -1 ------- null}
+r -t 1.022048 -s 0 -d 4 -p ping -e 64 -c 2 -i 15 -a 2 -x {1.0 4.0 -1 ------- null}
++ -t 1.1 -s 3 -d 0 -p ping -e 64 -c 0 -i 18 -a 0 -x {3.0 6.0 -1 ------- null}
+- -t 1.1 -s 3 -d 0 -p ping -e 64 -c 0 -i 18 -a 0 -x {3.0 6.0 -1 ------- null}
+h -t 1.1 -s 3 -d 0 -p ping -e 64 -c 0 -i 18 -a 0 -x {3.0 6.0 -1 ------- null}
+r -t 1.100512 -s 5 -d 0 -p ping -e 64 -c 2 -i 16 -a 2 -x {5.0 2.0 -1 ------- null}
++ -t 1.100512 -s 0 -d 2 -p ping -e 64 -c 2 -i 16 -a 2 -x {5.0 2.0 -1 ------- null}
+- -t 1.100512 -s 0 -d 2 -p ping -e 64 -c 2 -i 16 -a 2 -x {5.0 2.0 -1 ------- null}
+h -t 1.100512 -s 0 -d 2 -p ping -e 64 -c 2 -i 16 -a 2 -x {5.0 2.0 -1 ------- null}
+r -t 1.110512 -s 3 -d 0 -p ping -e 64 -c 0 -i 18 -a 0 -x {3.0 6.0 -1 ------- null}
++ -t 1.110512 -s 0 -d 6 -p ping -e 64 -c 0 -i 18 -a 0 -x {3.0 6.0 -1 ------- null}
+d -t 1.110512 -s 0 -d 6 -p ping -e 64 -c 0 -i 18 -a 0 -x {3.0 6.0 -1 ------- null}
+r -t 1.111024 -s 0 -d 2 -p ping -e 64 -c 2 -i 16 -a 2 -x {5.0 2.0 -1 ------- null}
++ -t 1.111024 -s 2 -d 0 -p ping -e 64 -c 0 -i 19 -a 0 -x {2.0 5.0 -1 ------- null}
+- -t 1.111024 -s 2 -d 0 -p ping -e 64 -c 0 -i 19 -a 0 -x {2.0 5.0 -1 ------- null}
+h -t 1.111024 -s 2 -d 0 -p ping -e 64 -c 0 -i 19 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 1.111536 -s 5 -d 0 -p ping -e 64 -c 2 -i 17 -a 2 -x {5.0 2.0 -1 ------- null}
++ -t 1.111536 -s 0 -d 2 -p ping -e 64 -c 2 -i 17 -a 2 -x {5.0 2.0 -1 ------- null}
+- -t 1.111536 -s 0 -d 2 -p ping -e 64 -c 2 -i 17 -a 2 -x {5.0 2.0 -1 ------- null}
+h -t 1.111536 -s 0 -d 2 -p ping -e 64 -c 2 -i 17 -a 2 -x {5.0 2.0 -1 ------- null}
+r -t 1.121536 -s 2 -d 0 -p ping -e 64 -c 0 -i 19 -a 0 -x {2.0 5.0 -1 ------- null}
++ -t 1.121536 -s 0 -d 5 -p ping -e 64 -c 0 -i 19 -a 0 -x {2.0 5.0 -1 ------- null}
+- -t 1.121536 -s 0 -d 5 -p ping -e 64 -c 0 -i 19 -a 0 -x {2.0 5.0 -1 ------- null}
+h -t 1.121536 -s 0 -d 5 -p ping -e 64 -c 0 -i 19 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 1.122048 -s 0 -d 2 -p ping -e 64 -c 2 -i 17 -a 2 -x {5.0 2.0 -1 ------- null}
++ -t 1.2 -s 6 -d 0 -p ping -e 64 -c 0 -i 20 -a 0 -x {6.0 3.0 -1 ------- null}
+- -t 1.2 -s 6 -d 0 -p ping -e 64 -c 0 -i 20 -a 0 -x {6.0 3.0 -1 ------- null}
+h -t 1.2 -s 6 -d 0 -p ping -e 64 -c 0 -i 20 -a 0 -x {6.0 3.0 -1 ------- null}
+r -t 1.222048 -s 0 -d 5 -p ping -e 64 -c 0 -i 19 -a 0 -x {2.0 5.0 -1 ------- null}
+r -t 1.290512 -s 6 -d 0 -p ping -e 64 -c 0 -i 20 -a 0 -x {6.0 3.0 -1 ------- null}
++ -t 1.290512 -s 0 -d 3 -p ping -e 64 -c 0 -i 20 -a 0 -x {6.0 3.0 -1 ------- null}
+- -t 1.290512 -s 0 -d 3 -p ping -e 64 -c 0 -i 20 -a 0 -x {6.0 3.0 -1 ------- null}
+h -t 1.290512 -s 0 -d 3 -p ping -e 64 -c 0 -i 20 -a 0 -x {6.0 3.0 -1 ------- null}
+r -t 1.301024 -s 0 -d 3 -p ping -e 64 -c 0 -i 20 -a 0 -x {6.0 3.0 -1 ------- null}
++ -t 1.301024 -s 3 -d 0 -p ping -e 64 -c 0 -i 21 -a 0 -x {3.0 6.0 -1 ------- null}
+- -t 1.301024 -s 3 -d 0 -p ping -e 64 -c 0 -i 21 -a 0 -x {3.0 6.0 -1 ------- null}
+h -t 1.301024 -s 3 -d 0 -p ping -e 64 -c 0 -i 21 -a 0 -x {3.0 6.0 -1 ------- null}
+r -t 1.311536 -s 3 -d 0 -p ping -e 64 -c 0 -i 21 -a 0 -x {3.0 6.0 -1 ------- null}
++ -t 1.311536 -s 0 -d 6 -p ping -e 64 -c 0 -i 21 -a 0 -x {3.0 6.0 -1 ------- null}
+d -t 1.311536 -s 0 -d 6 -p ping -e 64 -c 0 -i 21 -a 0 -x {3.0 6.0 -1 ------- null}
